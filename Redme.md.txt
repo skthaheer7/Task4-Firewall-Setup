@@ -1,0 +1,32 @@
+Task 4 – Configure and Use a Firewall
+
+Objective:
+To learn how to set up and manage firewall rules on a Windows system to control network traffic.
+
+Platform:
+Windows 10
+
+Tool Used:
+Windows Defender Firewall with Advanced Security
+
+What Was Done:
+1. Opened Windows Defender Firewall using wf.msc.
+2. Created a new inbound rule to block TCP traffic on port 23 (Telnet).
+3. Created another inbound rule to allow TCP traffic on port 22 (SSH).
+4. Verified that the rules appeared in the firewall rules list.
+5. Deleted both rules after testing to return the system to its default state.
+
+Key Learning:
+- How to block and allow specific ports using Windows Firewall.
+- The importance of disabling unused or insecure ports like Telnet.
+- Understanding inbound traffic rules for system protection.
+- Basics of rule configuration and management for local system hardening.
+
+Screenshots:
+Included in this repository are screenshots of:
+- Rule creation steps
+- The firewall rules list
+- Deleted rule confirmation
+
+Outcome:
+Gained hands-on experience in configuring, testing, and removing firewall rules to enhance system security on a Windows machine.
